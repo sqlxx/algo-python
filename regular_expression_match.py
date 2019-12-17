@@ -19,8 +19,7 @@ class Solution:
         else:
             return False
 
-class Solution(object):
-    def isMatch(self, text:str , pattern: str) -> bool:
+    def isMatch2(self, text:str , pattern: str) -> bool:
         memo = {}
         def dp(i:int, j:int) -> bool:
             if (i, j) not in memo:
