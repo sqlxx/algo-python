@@ -31,7 +31,7 @@ class Solution:
         # print(length, ",", length2)
         return max(length, length2)
 
-    def longestValidParentheses2(self, s: str) -> int:
+    def longestValidParentheses(self, s: str) -> int:
         ''' dynamic programming '''
         dp = []
         for i in range(len(s)):
@@ -54,7 +54,6 @@ class Solution:
         
         return length
     
-    def longestValidParentheses2(self, s: str) -> int:
         
 
 
