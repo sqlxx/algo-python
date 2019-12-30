@@ -1,5 +1,5 @@
 class Solution:
-    def searchRange(self, nums: List[int], target: int) -> List[int]:
+    def searchRange(self, nums: [int], target: int) -> [int]:
 
         def search(nums, left, right, target):
             if left > right:

@@ -1,8 +1,8 @@
 class Solution:
-    def searchInsert(self, nums: List[int], target: int) -> int:
+    def searchInsert(self, nums: [int], target: int) -> int:
 
         if len(nums) == 1:
-            if target > nums[i]:
+            if target > nums[0]:
                 return 1
             else:
                 return 0
