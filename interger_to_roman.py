@@ -58,7 +58,7 @@ class Solution:
         return result
 if __name__ == "__main__":
     sol = Solution()
-    print(sol.inttoroman(1994));
+    print(sol.inttoroman(1994))
 
-    print(sol.romanToInt(sol.inttoroman(1994)));
+    print(sol.romanToInt(sol.inttoroman(1994)))
 
