@@ -18,7 +18,7 @@ class Solution:
             if s[i].isdigit():
                 value = value*10 + int(s[i])
             else:
-                break;
+                break
 
         if negative:
             value = - value 
